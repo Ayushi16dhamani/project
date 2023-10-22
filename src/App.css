@@ -1,0 +1,32 @@
+/* App.css */
+/* Add your styles here */
+
+/* Add the styles for the code editor */
+/* Block: code-editor */
+.code-editor {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Element: toolbar */
+.toolbar {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+/* Element: code-input */
+.code-input {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  padding: 5px;
+}
+
+/* Modifier: locked (applies when editor is locked) */
+.code-editor.locked .code-input {
+  background-color: #f0f0f0;
+  border: 1px solid #888;
+}
