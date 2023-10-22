@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <CodeEditor />
+      <h1>Ayushi</h1>
     </div>
   );
 }
